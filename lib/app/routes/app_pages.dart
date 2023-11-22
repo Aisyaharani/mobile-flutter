@@ -17,6 +17,6 @@ class AppPages {
       page: () => const HomeView(),
       binding: HomeBinding(),
     ),
-    GetPage(name: _Paths.ADD, page: () => const CraeteBugdetPage()),
+    GetPage(name: _Paths.ADD, page: () => const CreateBudgetPage()),
   ];
 }
