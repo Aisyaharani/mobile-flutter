@@ -1,4 +1,5 @@
 import 'package:budget/app/data/listdata.dart';
+import 'package:budget/app/modules/home/controllers/auth_controller.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -68,6 +69,7 @@ class HomeView extends GetView<HomeController> {
   }
 
   Widget _head() {
+    final authControl = Get.find<AuthController>();
     return Stack(
       children: [
         Column(
@@ -89,10 +91,13 @@ class HomeView extends GetView<HomeController> {
                         height: 40,
                         width: 40,
                         color: const Color.fromRGBO(250, 250, 250, 0.1),
-                        child: const Icon(
-                          Icons.search,
-                          size: 30,
-                          color: Colors.white,
+                        child: IconButton(
+                          onPressed: () => authControl.logout(),
+                          icon: Icon(
+                            Icons.logout_outlined,
+                            size: 30,
+                            color: Colors.white,
+                          ),
                         ),
                       ),
                     ),

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "361788671871",
+    "project_id": "homebugdet-95699",
+    "storage_bucket": "homebugdet-95699.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361788671871:android:bd015c5b883771e2defc4a",
+        "android_client_info": {
+          "package_name": "com.praktikum.budget"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzDZ6ye5l9e5imW16p6oCj4ZIVJxa3Qjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
